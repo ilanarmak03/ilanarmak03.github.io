@@ -39,5 +39,5 @@ Bachelor of Science in Computer Science
 ## Contact
 
 - [GitHub](https://github.com/ilanarmak03)
-- Email: your-email@example.com
-- LinkedIn: Add your LinkedIn URL
+- Email: akamran0318@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ali-kamran813/
