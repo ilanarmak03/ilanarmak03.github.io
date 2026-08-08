@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head-custom.html %}
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="profile">
+      <img class="avatar" src="{{ '/assets/images/profile.png' | relative_url }}" alt="Ali Kamran profile photo">
+      <h1>Ali Kamran</h1>
+      <p class="role">Computer Science</p>
+      <p class="tagline">LLVM · RISC-V · Embedded Systems</p>
+    </div>
+
+    <nav class="nav" aria-label="Resume sections">
+      <a href="#about"><span class="prompt">$</span> about</a>
+      <a href="#experience"><span class="prompt">$</span> experience</a>
+      <a href="#projects"><span class="prompt">$</span> projects</a>
+      <a href="#skills"><span class="prompt">$</span> skills</a>
+      <a href="#education"><span class="prompt">$</span> education</a>
+      <a href="#contact"><span class="prompt">$</span> contact</a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <div class="socials">
+        <a href="https://github.com/ilanarmak03" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#contact">Email</a>
+        <a href="#contact">LinkedIn</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <span id="theme-label">dark</span>
+      </button>
+    </div>
+  </aside>
+
+  <main class="content">
+    {{ content }}
+    <footer>
+      <span class="prompt">$</span> end_of_resume
+    </footer>
+  </main>
+
+  <script>
+    const root = document.documentElement;
+    const button = document.getElementById('theme-toggle');
+    const label = document.getElementById('theme-label');
+    const stored = localStorage.getItem('theme');
+    const preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    const initial = stored || preferred;
+    root.dataset.theme = initial;
+    label.textContent = initial;
+
+    button.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next;
+      label.textContent = next;
+      localStorage.setItem('theme', next);
+    });
+  </script>
+</body>
+</html>

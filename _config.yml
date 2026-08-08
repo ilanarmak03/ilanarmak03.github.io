@@ -1,5 +1,6 @@
 title: Ali Kamran
 description: Computer Science | LLVM | RISC-V | Embedded Systems
-theme: jekyll-theme-minimal
-show_downloads: false
-logo: /assets/images/profile.png
+url: "https://ilanarmak03.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
