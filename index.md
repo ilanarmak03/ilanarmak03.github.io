@@ -35,14 +35,15 @@ title: Ali Kamran
       RISC-V, and predictable execution behavior.
     </p>
 
-    <p>
-      My compiler work involves modifying LLVM's RISC-V backend and developing
-      machine-level analysis and transformation passes for atomic LR/SC sequences,
-      inline assembly, control flow, and instruction lowering. I also work with
-      LLVM IR, MIR, backend pass pipelines, and RISC-V instruction selection.
-    </p>
+	<p>
+	  My compiler work involves modifying LLVM's RISC-V backend and developing
+	  machine-level analysis and transformation passes. I also work with
+	  LLVM IR, MIR, backend pass pipelines, instruction selection, and LLVM
+	  TableGen.
+	</p>
 
     <div class="tags">
+      <span class="tag">TableGen</span>
       <span class="tag">LLVM</span>
       <span class="tag">RISC-V</span>
       <span class="tag">C++</span>
@@ -164,7 +165,7 @@ title: Ali Kamran
     <div class="card skill-group">
       <h3>systems[]</h3>
       <p>
-        LLVM, RISC-V, Linux, Git, compiler backends,
+        LLVM, LLVM TableGen, RISC-V, Linux, Git, compiler backends,
         machine-level analysis, LLVM IR, MIR
       </p>
     </div>
