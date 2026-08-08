@@ -236,9 +236,9 @@ title: Ali Kamran
 
     <p>
       <strong>Relevant coursework:</strong>
-      Embedded Systems, Digital Logic Design, Computer Architecture,
-      RISC-V, SystemVerilog, Computer Organization, Operating Systems,
-      Signals and Systems, and Design & Analysis of Algorithms.
+      Computer Architecture(RISC-V, SystemVerilog), Embedded Systems, Digital Logic Design,
+      Computer Organization, Operating Systems,Signals and Systems,
+      and Design & Analysis of Algorithms.
     </p>
   </div>
 
