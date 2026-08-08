@@ -110,7 +110,7 @@ title: Ali Kamran
     </div>
     <div class="contact-item">
       <strong>resume</strong>
-      <a href="/assets/resume.pdf">Download PDF</a>
+      <a href="/assets/Ali_Kamran_Resume_June_18_2026.pdf">Download PDF</a>
     </div>
   </div>
 </section>
