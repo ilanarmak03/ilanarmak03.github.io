@@ -102,11 +102,11 @@ title: Ali Kamran
     </div>
     <div class="contact-item">
       <strong>email</strong>
-      <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a>
+      <a href="mailto:akamran0318@gmail.com">akamran0318@gmail.com</a>
     </div>
     <div class="contact-item">
       <strong>linkedin</strong>
-      <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/ali-kamran813/" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
     <div class="contact-item">
       <strong>resume</strong>
