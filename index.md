@@ -231,17 +231,16 @@ title: Ali Kamran
   </div>
 </section>
 
-</section>
 <section id="contact">
   <div class="section-title"><span class="prompt">05.</span><h2>Contact</h2></div>
   <div class="contact-grid">
     <div class="contact-item">
       <strong>github</strong>
-      <a href="https://github.com/ilanarmak03" target="_blank" rel="noreferrer">github.com/ilanarmak03</a>
+      <a href="https://github.com/ilanarmak03" target="_blank" rel="noreferrer">Github</a>
     </div>
     <div class="contact-item">
       <strong>email</strong>
-      <a href="mailto:akamran0318@gmail.com">akamran0318@gmail.com</a>
+      <a href="mailto:akamran0318@gmail.com">Email</a>
     </div>
     <div class="contact-item">
       <strong>linkedin</strong>
