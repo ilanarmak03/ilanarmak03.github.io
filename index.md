@@ -6,7 +6,7 @@ title: Ali Kamran
 <div class="hero" id="about">
   <p class="eyebrow">ali@portfolio:~$ whoami</p>
 
-  <h2>Computer Science student focused on low-level systems, compilers, and embedded computing.</h2>
+  <h2>Computer Science student focused on low-level systems, compilers, and embedded computing</h2>
 
   <p>
     I am interested in computer architecture, compiler infrastructure, real-time systems,
